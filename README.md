@@ -12,6 +12,14 @@ Portable, model-agnostic skills by [Jeremiah Dillon](https://jeremiahdillon.com)
 |---|---|---|---|
 | writing | [long-form-essay-voice](writing/long-form-essay-voice/SKILL.md) | Drafts analytical long-form essays in Jeremiah's voice from rough ideas, an outline, or a draft. | [SKILL.md](https://raw.githubusercontent.com/jeremiahdillon/skills/main/writing/long-form-essay-voice/SKILL.md) |
 
+## Toolkits
+
+Some skills only make sense alongside the programs they drive, so they live with their code in a separate repository rather than here. They can't be fetched with the single-file recipe below; install them from their own repo.
+
+| Toolkit | Skills | What it does | Requires |
+|---|---|---|---|
+| [claude-code-delegate](https://github.com/jeremiahdillon/claude-code-delegate) | `delegate`, `adversarial-review` | Lets Claude Code hand bounded work to cheap open-weight models (OpenRouter, OpenCode) and run automated adversarial review loops with a second model. | Claude Code, Python 3.9+, OpenCode, an OpenRouter API key |
+
 ## Fetching a skill
 
 Every skill resolves to the same URL shape:
